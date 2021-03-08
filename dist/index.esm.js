@@ -1865,7 +1865,7 @@ var Icon$P = function (props) {
 var Logo = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
     return (React.createElement(Svg, __assign({ viewBox: "0 0 205 26" }, props),
-        React.createElement("image", { width: "205", height: "26", href: isDark ? '/images/egg/LogoTextNewDark.png' : '/images/egg/LogoTextNewWhite.png' })));
+        React.createElement("image", { width: "205", height: "26", href: isDark ? "/images/egg/LogoTextNewDark.png" : "/images/egg/LogoTextNewWhite.png" })));
 };
 
 var Icon$Q = function (props) {
@@ -2768,14 +2768,14 @@ var baseColors = {
     primary: "#dd1722",
     primaryBright: "#d44c5c",
     primaryDark: "#b10413",
-    secondary: "#7645D9",
-    success: "#31D0AA",
+    secondary: "#613b44",
+    success: "#012572",
     warning: "#FFB237",
 };
 var brandColors = {
     binance: "#F0B90B",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: "#452A7A", textDisabled: "#BDC2C4", textSubtle: "#8f80ba", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#deced0  ", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: "#613b44", textDisabled: "#BDC2C4", textSubtle: "#be6a6e", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
 var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#9A6AFF", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#27262c", gradients: {
