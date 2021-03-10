@@ -2109,15 +2109,15 @@ var links = [
             // },
             {
                 label: "Github",
-                href: "https://github.com/goosedefi/",
+                href: "https://github.com/countachswap/",
             },
             {
                 label: "Docs",
-                href: "https://goosedefi.gitbook.io/goose-finance/",
+                href: "https://countachswap.gitbook.io/countachswap/",
             },
             {
                 label: "Blog",
-                href: "https://goosefinance.medium.com/",
+                href: "https://countachswap.medium.com/",
             },
         ],
     },
@@ -2133,7 +2133,7 @@ var socials = [
             },
             {
                 label: "Announcements",
-                href: "https://t.me/lambofuture",
+                href: "https://t.me/lambofuturenews",
             },
             {
                 label: "Price chat",
@@ -2144,7 +2144,7 @@ var socials = [
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/lambofuture",
+        href: "https://twitter.com/countachswap",
     },
 ];
 var MENU_HEIGHT = 64;
